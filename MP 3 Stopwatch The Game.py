@@ -74,7 +74,7 @@ def stop_timer():
         
         total_stops += 1
         
-        print "Stopped. End Turn " + str(turn_number) + " of " + str(total_turns)
+        #print "Stopped. End Turn " + str(turn_number) + " of " + str(total_stops)
 
         if hundreds_tenths == 0:
             stopped_on_whole_second += 1 
